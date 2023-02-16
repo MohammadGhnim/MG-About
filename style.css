@@ -32,9 +32,73 @@
 .content {
     color:  #fdecef;
 }
-.display-1 {
+.title {
     font-family: 'Times New Roman';
-    font-size: 50px;
-    margin-top: 9%;
+    font-size: 70px;
     letter-spacing: 2px;
+    color:  #fdecef;
+}
+.bg{
+    background-color: #612940;
+}
+.about-me-area h1 {
+    margin-bottom: 24px;
+}
+.description{
+    color:  #fdecef;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.full-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0;
+}
+.image-wrapper {
+    height: 100%;
+    display: block;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.mg-bottom-0px {
+    margin-bottom: 0px;
+}
+.signature {
+    display: block;
+    max-width: 35%;
+}
+.mg-bottom-32px {
+    margin-bottom: 32px;
+}
+.about-hero-left{
+    max-width: 50%;
+    margin-right: 20px;
+}
+.about-hero-right {
+    max-width: 50%;
+    align-self: flex-end;
+}
+.split {
+    margin-top: 50px !important;
+}
+.section-gab {
+    padding: 100px 0;
+}
+.about-hero-right p{
+    max-width: 100%;
+    font-size: 18px;
+    color:  #fdecef;
+    font-family: 'Times New Roman';
+}
+.max-width {
+    max-width: 1364px !important;
 }
