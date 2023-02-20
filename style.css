@@ -369,3 +369,28 @@ button.rn-btn {
 button.rn-btn:hover {
     transform: translateY(-5px);
 }
+.logo a {
+    display: inline-block;
+}
+.footer-area .description {
+    font-size: 17px;
+    color: #fdecef;
+    font-family: 'Times New Roman';
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+.footer-area .description a {
+    color: #fdecef;
+    transition: 0.4s;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+.footer-area .description a:hover {
+    color: #0F110C;
+}
+.footer-area .logo a img {
+    max-height: 70px;
+    border-radius: 50%;
+}
