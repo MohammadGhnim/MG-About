@@ -102,3 +102,62 @@
 .max-width {
     max-width: 1364px !important;
 }
+.section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.past-experience .section-wordpress .inner .thumbnail a img {
+    width: 100%;
+    transition: 0.4s;
+    height: auto;
+    object-fit: cover;
+}
+
+.past-experience .section-wordpress .inner .thumbnail a {
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.past-experience .inner .wordpress-content .title a{
+    transition: 0.4s;
+    color: #fdecef;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Times New Roman';
+}
+.past-experience .inner .wordpress-content .title{
+    margin: 0;
+}
+.past-experience .inner .wordpress-content p {
+    font-family: 'Times New Roman';
+}
+.wordpress-content {
+    color: #fdecef;
+    padding-top: 18px;
+}
+.section-wordpress {
+    text-align: left;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    display: inline-block;
+}
+.mt--30 {
+    margin-top: 30px !important;
+}
+.past-experience .wordpress-content .title a:hover {
+    color:#0F110C;
+    transition: .4s ease;
+}
+.past-experience .thumbnail img:hover {
+    transform: scale(1.08);
+}
