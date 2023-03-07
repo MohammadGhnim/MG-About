@@ -412,14 +412,37 @@ button.rn-btn:hover {
         margin-top: 40px !important;
     }
 }
-
-/*transform: translate(-50%,-50%);*/
-bg {
-    background-color: #612940; 
+@media only screen 
+    and (max-width: 767px)
+    {
+    .skills {
+        min-width: 85%;
+    }
 }
+@media only screen 
+    and (max-width: 767px)
+    {
+    .language-skills {
+        min-width: 85%;
+    }
+}
+@media only screen 
+    and (max-width: 767px)
+    {
+    .language-title{
+        font-size: 50px;
+    }
+}
+@media only screen 
+    and (max-width: 767px)
+    {
+    .skills-title{
+        font-size: 50px;
+    }
+}
+
 .wrapper1{
     width: 50%;
-    min-width: 570px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -505,3 +528,27 @@ h2{
         width: 25%;
     }
 } 
+#arabic-bar{
+    animation: arabic-fill 2s forwards;
+}
+@keyframes arabic-fill{
+    100%{
+        width: 100%;
+    }
+}
+#english-bar{
+    animation: english-fill 2s forwards;
+}
+@keyframes english-fill{
+    100%{
+        width: 50%;
+    }
+}
+#german-bar{
+    animation: german-fill 2s forwards;
+}
+@keyframes german-fill {
+    100%{
+        width: 75%;
+    }
+}
